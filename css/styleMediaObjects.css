@@ -1,0 +1,35 @@
+.header {
+    text-align: center;
+    box-sizing: content-box;
+    text-shadow: 2px 2px 5px black;
+    width: 100%;
+    color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+.media {
+    display: flex;
+    margin-left: 35%;
+    align-items: flex-start;
+    background: #F6F3EB;
+    padding: 1em;
+    border-radius: 3px;
+    max-width: 24em;
+}
+
+.media-object {
+    margin-right: 1em;
+}
+
+.media-body {
+    flex: 2;
+}
+
+.media-heading {
+    margin: 0 0 .5em;
+}
+
+.nested-media {
+    margin-left: 10%;
+}
